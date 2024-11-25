@@ -20,25 +20,23 @@ Then start the project using
 
 # npm run dev (or) node app.js
 
-# Implemented @Role based auth using nodejs
+# Implemented @Role based auth
 
 Folders structure
 
 --> app.js (starting file)
 
-# src -->
+# SRC -->
 
     -> Controllers
                --> authController.js ( Register,Login,Logout apis logic exists)
-    -> middleware
+    -> Middleware
                --> auth.js (authentication and authorization code exists)
-    -> models
+    -> Models
           --> models.js (mongoDB schema exists)
-    -> routes
+    -> Routes
           -->  authRoutes.js (login,register,logout routes paths exists)
           --> protectedRoutes.js (/admin,/modirator,/user  protected with authorization roles)
-
-Used
 
 # JWT
 
